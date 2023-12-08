@@ -70,6 +70,22 @@ p {
 	cursor: 				pointer;
 }
 
+.circleLeft2 {
+	position: 				absolute;
+	width: 					3em;
+	height: 				3em;
+	bottom: 				50px;
+	left: 					250px;
+	background: 			none;
+	border-radius: 			50%;
+	z-index: 				1; /* TODO Solve this in HTML */
+}
+
+.circleLeft2:hover {
+	background-color: 		#E40033;
+	cursor: 				pointer;
+}
+
 #info {
 	position: 				absolute;
 	width: 					3em;
