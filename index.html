@@ -149,8 +149,8 @@
 
 				container = document.getElementById( 'container' );
 
-				camera = new THREE.PerspectiveCamera( 225, window.innerWidth / window.innerHeight, 0.1, 1000 );
-				camera.position.set( 220, 220, 150 );
+				camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.1, 1000 );
+				camera.position.set( 220, 220, 200 );
 				//camera.lookAt( 0, 0, 0 );
 
 				scene = new THREE.Scene();
@@ -184,7 +184,7 @@
 				scene.add( directionalLight );
 
 				var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.7 );
-				directionalLight.position.set( -200, 200,200 ).normalize();
+				directionalLight.position.set( -200, -200,200 ).normalize();
 				scene.add( directionalLight );
 				
 				//
