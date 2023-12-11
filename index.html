@@ -200,7 +200,11 @@
 				directionalLight.position.set( 310, -310, 10 ).normalize();
 				scene.add( directionalLight );
 
-				
+				var spotLight = new THREE.SpotLight(0xffffff);
+				spotLight.position.set(50, 90, 50);
+				spotLight.angle = Math.PI /6
+				scene.add(spotLight); //光对象添加到scene场景中
+
 				//
 
 				renderer = new THREE.WebGLRenderer({ antialias: true });
